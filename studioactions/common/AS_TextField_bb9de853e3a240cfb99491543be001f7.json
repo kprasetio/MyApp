@@ -1,0 +1,19 @@
+{
+    "AS_TextField_bb9de853e3a240cfb99491543be001f7": {
+        "id": "AS_TextField_bb9de853e3a240cfb99491543be001f7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTextChange_cde64951cf944bb18c2a7ba4114b7cfd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": ""
+        }]
+    }
+}

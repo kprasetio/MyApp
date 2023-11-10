@@ -1,0 +1,17 @@
+{
+    "AS_AppEvents_g32421d8448c4deb8e4da00b6a29f442": {
+        "id": "AS_AppEvents_g32421d8448c4deb8e4da00b6a29f442",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_fac0bbe6187047048bcfdaa2cc3398ac",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//var mymodule = require(\"Module\"); \n//mymodule.setLanguange();",
+            "parentId": null
+        }]
+    }
+}

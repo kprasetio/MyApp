@@ -1,0 +1,21 @@
+{
+    "AS_Button_f3246edb73cc4cc98362533d4db7a71c": {
+        "id": "AS_Button_f3246edb73cc4cc98362533d4db7a71c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_dfa5e5c21bfe4756849e792a043d97d8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "deleteOnClick",
+            "display": "deleteOnClick",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "android": {
+    "isForked": true
+  },
+  "background_gradient_bottom_color": "8657f2ff",
+  "background_gradient_top_color": "c9c9f5ff",
+  "background_style": "vg",
+  "bg_type": "two",
+  "border_color": "ffffffff",
+  "iphone": {
+    "background_gradient_bottom_color": "4366f0ff",
+    "background_gradient_top_color": "c9eef5ff",
+    "background_style": "vg",
+    "bg_type": "two",
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "s5940fbd1f854a90850d9fbc48aba627",
+  "wType": "Form"
+}

@@ -1,0 +1,74 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [],
+            "nodeDataArray": [
+                {
+                    "formKUID": "ed638521b0da4ab486794b6cb5fe3713",
+                    "formName": "Form1",
+                    "isStartupForm": true,
+                    "key": "ed638521b0da4ab486794b6cb5fe3713",
+                    "loc": "368 354.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "ic20b729e18b45ce8d6305150e3f6cc1",
+                    "formName": "frmAccountDetail",
+                    "isStartupForm": false,
+                    "key": "ic20b729e18b45ce8d6305150e3f6cc1",
+                    "loc": "188 199.69052734375",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "d72230b1eb7c400f8bcdc5761052c712",
+                    "formName": "frmAccounts",
+                    "isStartupForm": false,
+                    "key": "d72230b1eb7c400f8bcdc5761052c712",
+                    "loc": "8 639.6905273437501",
+                    "thumbnailURL": "/assets/CRUDProject/forms/mobile/AppGroup/frmAccounts.sm/.thumbs/default.jpeg"
+                },
+                {
+                    "formKUID": "b2ad59c190f54dad8baa98bfcfe9525f",
+                    "formName": "frmCredential",
+                    "isStartupForm": false,
+                    "key": "b2ad59c190f54dad8baa98bfcfe9525f",
+                    "loc": "8 1239.69052734375",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "fb54139272c644508e6c66600e9e2dd7",
+                    "formName": "frmData",
+                    "isStartupForm": false,
+                    "key": "fb54139272c644508e6c66600e9e2dd7",
+                    "loc": "8 1839.69052734375",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "db799f6709904e30a115892650149e37",
+                    "formName": "frmList",
+                    "isStartupForm": false,
+                    "key": "db799f6709904e30a115892650149e37",
+                    "loc": "8 2439.6905273437496",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "hdf6c3548777453bad0e6fd2bc8ca5c1",
+                    "formName": "frmLogin",
+                    "isStartupForm": false,
+                    "key": "hdf6c3548777453bad0e6fd2bc8ca5c1",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "jfc28b8c651341ab8136ff53340673a9",
+                    "formName": "frmPreLogin",
+                    "isStartupForm": false,
+                    "key": "jfc28b8c651341ab8136ff53340673a9",
+                    "loc": "8 3039.6905273437496",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

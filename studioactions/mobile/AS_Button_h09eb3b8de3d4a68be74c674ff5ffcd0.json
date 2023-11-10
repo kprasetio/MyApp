@@ -1,0 +1,22 @@
+{
+    "AS_Button_h09eb3b8de3d4a68be74c674ff5ffcd0": {
+        "id": "AS_Button_h09eb3b8de3d4a68be74c674ff5ffcd0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b98c929efc234bfcbcff796de4d09ed4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onBtnExitClick",
+            "display": "onBtnExitClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

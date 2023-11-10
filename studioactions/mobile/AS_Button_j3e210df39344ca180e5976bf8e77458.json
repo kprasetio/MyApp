@@ -1,0 +1,28 @@
+{
+    "AS_Button_j3e210df39344ca180e5976bf8e77458": {
+        "id": "AS_Button_j3e210df39344ca180e5976bf8e77458",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPreLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "jfc28b8c651341ab8136ff53340673a9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b454c6a5063d42cb809ea864878bb476",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "btnOnClik",
+            "display": "btnOnClik",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

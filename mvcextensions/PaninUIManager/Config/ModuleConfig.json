@@ -1,0 +1,8 @@
+{
+    "BusinessControllerConfig": {
+        "BusinessExtensions": [],
+        "BusinessControllerClass": "PaninUIManager/BusinessControllers/BusinessController"
+    },
+    "ModuleType": "Manager",
+    "ModuleName": "PaninUIManager"
+}

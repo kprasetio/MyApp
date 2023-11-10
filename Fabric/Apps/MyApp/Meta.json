@@ -1,0 +1,25 @@
+{
+  "subType" : "customapp",
+  "description" : "MyApp",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "BestBuyService",
+    "version" : "1.0",
+    "etag" : "efb4da08-0fa6-49f5-98a1-d29bd7ca371e"
+  }, {
+    "name" : "PaninService",
+    "version" : "1.0",
+    "etag" : "4f222711-3d59-4fe0-b347-4337936378f7"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "getProduct",
+    "version" : "1.0",
+    "etag" : "029b2650-1eec-429d-a16b-a5abf2f27b33"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "BestBuyObjectServices",
+    "version" : "1.0",
+    "etag" : "be2be4dc-dd26-471c-b34b-ebc01edaa71f"
+  } ],
+  "identity" : [ "mmbmbb" ]
+}

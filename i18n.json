@@ -1,0 +1,48 @@
+{
+    "keys": [
+        "i18n.btn.exit",
+        "i18n.btn.login",
+        "i18n.lbl.name",
+        "i18n.lbl.password",
+        "i18n.lbl.savings",
+        "i18n.lbl.welcome"
+    ],
+    "locales": {
+        "en_US": {
+            "i18nStrings": {
+                "i18n.btn.exit": "Exit",
+                "i18n.btn.login": "Login",
+                "i18n.lbl.name": "User Name",
+                "i18n.lbl.password": "Password",
+                "i18n.lbl.savings": "Savings",
+                "i18n.lbl.welcome": "Welcome"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "in_ID": {
+            "country": "Indonesia",
+            "i18nStrings": {
+                "i18n.btn.exit": "Keluar",
+                "i18n.btn.login": "Masuk",
+                "i18n.lbl.name": "Nama",
+                "i18n.lbl.password": "Kata Kunci",
+                "i18n.lbl.savings": "Tabungan",
+                "i18n.lbl.welcome": "Selamat Datang"
+            },
+            "isCustomLocale": true,
+            "isSelected": true,
+            "language": "Bahasa",
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        }
+    }
+}

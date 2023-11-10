@@ -1,0 +1,77 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "38dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "English",
+    "_right_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_skin_": "s662b71a6e284f48b18c6791898f6571",
+    "_top_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "81dp"
+    },
+    "android": {
+        "viewType": 0
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "sb5a4a73e49b425ebd6a19abaed80b84",
+    "groupcells": false,
+    "id": "listBoxLanguage",
+    "info": null,
+    "iphone": {
+        "viewType": 2
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d3731198c31f475687df5e0158a6b54b",
+    "masterdata": [
+        [
+            "EN",
+            "English"
+        ],
+        [
+            "ID",
+            "Bahasa"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "frmLogin",
+    "pf": "frmLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "EN",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "EN",
+        "English"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

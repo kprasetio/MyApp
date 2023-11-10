@@ -1,0 +1,32 @@
+{
+  "operationConfig" : {
+    "name" : "getProductDetailsv25101",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"sku\" outputpath=\"sku\"/>\n    </map>\n</mapper>\n",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"getProductDetailsv2\">\n            <set-param inputpath=\"images\" outputpath=\"images\"/>\n        </map>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"getProductDetailsv2\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"BestBuyService (1.0).getProductDetailsv2\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:getProductDetailsv2:sku:\",\"to\":\"target:sku:\",\"fromPort\":\"source:getProductDetailsv2:sku:\",\"toPort\":\"target:sku:\",\"visible\":true,\"common\":true}]}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"getProductDetailsv2\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"BestBuyService (1.0).getProductDetailsv2\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:images:\",\"to\":\"target:getProductDetailsv2:images:\",\"fromPort\":\"source:images:\",\"toPort\":\"target:getProductDetailsv2:images:\",\"visible\":true,\"common\":true}]}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "BestBuyService",
+      "serviceVersion" : "1.0",
+      "operationName" : "getProductDetailsv2"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "getProductDetailsv2",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

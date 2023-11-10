@@ -1,0 +1,11 @@
+{
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [],
+            "PresentationControllerClass": "PaninUIModule/PresentationControllers/PresentationController"
+        }
+    },
+    "Forms": {},
+    "ModuleType": "UIModule",
+    "ModuleName": "PaninUIModule"
+}
