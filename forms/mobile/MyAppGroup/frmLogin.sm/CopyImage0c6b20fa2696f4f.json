@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_skin_": "s01f4a0bf77e439598eb1ca7a9c9db7a",
+    "_src_": "locate_us.png",
+    "_top_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "CopyImage0c6b20fa2696f4f",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fbfd583fc6954ff6be24b42942f9791e",
+    "name": "kony.ui.Image2",
+    "parent": "flxBox2",
+    "pf": "frmLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

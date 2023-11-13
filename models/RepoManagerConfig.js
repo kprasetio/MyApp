@@ -78,6 +78,11 @@ define([], function(){
 			config : "BestBuyObjectServices/getProductDetailsv2/MF_Config",
 			repository : "BestBuyObjectServices/getProductDetailsv2/Repository",
 		},
+		addExample  : {
+			model : "JavaPaninObjectService/addExample/Model",
+			config : "JavaPaninObjectService/addExample/MF_Config",
+			repository : "JavaPaninObjectService/addExample/Repository",
+		},
 	};
 
 	return repoMapping;

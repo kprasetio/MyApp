@@ -7,9 +7,13 @@
     "version" : "1.0",
     "etag" : "efb4da08-0fa6-49f5-98a1-d29bd7ca371e"
   }, {
+    "name" : "JavaPaninService",
+    "version" : "1.0",
+    "etag" : "fb9ed01e-2daa-42ed-8a3c-4b8f4681c289"
+  }, {
     "name" : "PaninService",
     "version" : "1.0",
-    "etag" : "4f222711-3d59-4fe0-b347-4337936378f7"
+    "etag" : "64e929fc-a1e7-4f5a-a988-f24438d3e09d"
   } ],
   "orchSvcs" : [ {
     "name" : "getProduct",
@@ -20,6 +24,14 @@
     "name" : "BestBuyObjectServices",
     "version" : "1.0",
     "etag" : "be2be4dc-dd26-471c-b34b-ebc01edaa71f"
+  }, {
+    "name" : "JavaPaninObjectService",
+    "version" : "1.0",
+    "etag" : "612c54ca-6b19-4b01-9c08-cbdd4db41e1b"
+  }, {
+    "name" : "PaninObjectService",
+    "version" : "1.0",
+    "etag" : "bcf171e9-aea1-43fd-94c0-cef83b1b7f84"
   } ],
-  "identity" : [ "mmbmbb" ]
+  "identity" : [ "mmbmbb", "MyAppIdentityServices" ]
 }

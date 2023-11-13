@@ -1,0 +1,32 @@
+{
+  "operationConfig" : {
+    "name" : "getAccounts7839",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"cif\" outputpath=\"cif\"/>\n    </map>\n</mapper>\n",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">        <map inputpath=\"response_in\" outputpath=\"response_out\">                             <set-param outputpath=\"AddtionalMsg\" inputpath=\"AddtionalMsg\" />               <set-param outputpath=\"opstatus\" inputpath=\"opstatus\" />               <map outputpath=\"accounts\" inputpath=\"accounts\">                <set-param outputpath=\"accountStatus\" inputpath=\"accountStatus\" />                <set-param outputpath=\"accountType\" inputpath=\"accountType\" />    \t     <set-param outputpath=\"currentBalance\" inputpath=\"currentBalance\" />   \t     <set-param outputpath=\"accountNum \" inputpath=\"accountNum \" />   \t     <set-param outputpath=\"currency\" inputpath=\"currency\" />           </map>          </map></mapper>",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"getAccountsObject\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"PaninService (1.0).getAccounts\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:getAccountsObject:cif:\",\"to\":\"target:cif:\",\"fromPort\":\"source:getAccountsObject:cif:\",\"toPort\":\"target:cif:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"getAccountsObject\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"PaninService (1.0).getAccounts\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:getAccountsObject\",\"fromPort\":\"target\",\"toPort\":\"target:getAccountsObject\",\"visible\":true,\"common\":false},{\"from\":\"target:getAccountsObject\",\"to\":\"target:getAccountsObject:fields\",\"fromPort\":\"target:getAccountsObject\",\"toPort\":\"target:getAccountsObject:fields\",\"visible\":true,\"common\":false},{\"from\":\"target:getAccountsObject:fields\",\"to\":\"target:getAccountsObject:cif:\",\"fromPort\":\"target:getAccountsObject:fields\",\"toPort\":\"target:getAccountsObject:cif:\",\"visible\":true,\"common\":false},{\"from\":\"source\",\"to\":\"source:accounts\",\"fromPort\":\"source\",\"toPort\":\"source:accounts\",\"visible\":true,\"common\":false},{\"from\":\"source:accounts\",\"to\":\"source:accounts:parameters\",\"fromPort\":\"source:accounts\",\"toPort\":\"source:accounts:parameters\",\"visible\":true,\"common\":false},{\"from\":\"source:accounts:parameters\",\"to\":\"source:accounts:accountNum :\",\"fromPort\":\"source:accounts:parameters\",\"toPort\":\"source:accounts:accountNum :\",\"visible\":true,\"common\":false},{\"from\":\"source:accounts:parameters\",\"to\":\"source:accounts:accountStatus:\",\"fromPort\":\"source:accounts:parameters\",\"toPort\":\"source:accounts:accountStatus:\",\"visible\":true,\"common\":false},{\"from\":\"source:accounts:parameters\",\"to\":\"source:accounts:accountType:\",\"fromPort\":\"source:accounts:parameters\",\"toPort\":\"source:accounts:accountType:\",\"visible\":true,\"common\":false},{\"from\":\"source:accounts:parameters\",\"to\":\"source:accounts:currency:\",\"fromPort\":\"source:accounts:parameters\",\"toPort\":\"source:accounts:currency:\",\"visible\":true,\"common\":false},{\"from\":\"source:accounts:parameters\",\"to\":\"source:accounts:currentBalance:\",\"fromPort\":\"source:accounts:parameters\",\"toPort\":\"source:accounts:currentBalance:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "PaninService",
+      "serviceVersion" : "1.0",
+      "operationName" : "getAccounts"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "getAccountsObject",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}
